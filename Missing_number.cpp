@@ -1,5 +1,5 @@
 #include<iostream>
-#define ll long
+#define ll long long
 int main(){
 
     ll n;
