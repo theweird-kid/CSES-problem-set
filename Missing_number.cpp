@@ -1,13 +1,13 @@
 #include<iostream>
-
+#define ll long
 int main(){
 
-    int n;
+    ll n;
     std::cin >> n;
-    long long sum{0};
+    ll sum{0};
 
     for(int i =0; i<n-1; i++){
-        long a;
+        ll a;
         std::cin >> a;
         sum += a;
     }
